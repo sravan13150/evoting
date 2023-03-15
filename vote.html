@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-top: 50px;
+        }
+        
+        h2 {
+            margin-top: 20px;
+        }
+        
+        .candidate {
+            display: inline-block;
+            margin: 20px;
+            text-align: left;
+        }
+        
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: lightblue;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Online Voting Website</h1>
+    <form action="submit-vote.php" method="post">
+      <h2>Choose a candidate:</h2>
+      <div class="candidate">
+        <input type="radio" id="candidate1" name="candidate" value="candidate1">
+        <label for="candidate1">SRAVAN</label>
+      </div>
+      <div class="candidate">
+        <input type="radio" id="candidate2" name="candidate" value="candidate2">
+        <label for="candidate2">NAVYA</label>
+      </div>
+      <div class="candidate">
+        <input type="radio" id="candidate3" name="candidate" value="candidate3">
+        <label for="candidate3">RAKESH</label>
+      </div>
+      <div class="candidate">
+        <input type="radio" id="candidate4" name="candidate" value="candidate4">
+        <label for="candidate4">GOWTHAM</label>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
