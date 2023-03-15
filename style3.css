@@ -1,0 +1,49 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+form{
+  background-image: url("https://marvel-b1-cdn.bc0a.com/f00000000019401/ix-cdn.b2e5.com/images/19401/19401_8e79cf31d9bf4720ad4aa6a5ceb9cde6_1553724940.jpeg");
+  max-width: 500px;
+  margin: 50px;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="password"],input[type="date"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button[type="submit"], input[type="verifyage"]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type="submit"]:hover{
+  background-color: #ba5289;
+}
+.error{
+  color: red;
+  margin-bottom: 10px;
+}
+
+img[id="registration"]{
+  max-width: 750px;
+
+}
+
+h1{
+  color: lightcyan;
+}

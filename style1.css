@@ -1,0 +1,58 @@
+h1{
+    color :chocolate;
+    font-size: 55px;
+}
+
+h2{
+    color:darkseagreen;
+    font-size: 30px;
+}
+
+table{
+    color: blueviolet;
+    background-color: yellow;
+
+}
+
+option{
+    color: cadetblue;
+}
+
+h{
+    column-rule-color: darksalmon;
+
+}
+
+input{
+    color: beige;
+    background-color: lightblue;
+    border-style: double;
+}
+
+form{
+    color: rgb(243, 82, 243);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+select{
+    color: beige;
+    background-color: lightblue;
+    border-style: double;
+
+}
+
+body{
+    
+   
+    background-color: rgba(100, 148, 237, 0.711);
+}
+
+marquee{
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #61bfed;
+   
+    background-color: azure;
+}

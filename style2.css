@@ -1,0 +1,74 @@
+h1{
+    color :chocolate;
+    font-size: 55px;
+}
+
+h2{
+    color:darkseagreen;
+    font-size: 30px;
+}
+
+table{
+    color: blueviolet;
+    background-color: yellow;
+
+}
+
+option{
+    color: cadetblue;
+}
+
+h{
+    column-rule-color: darksalmon;
+
+}
+
+input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+input[type=number] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+input[type=password] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+input[type=radio] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+
+
+
+form{
+    color: rgb(220, 38, 220);
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: content-box;
+    
+}
+select{
+    color: beige;
+    background-color: lightblue;
+    border-style: double;
+
+}
+
+body{
+    background-color: aliceblue;
+}
+
+select[date=dropdown] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
